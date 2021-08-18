@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Home } from './components'; //NEW_ADDITION
+import { Home, Dashboard, DataTable, SignIn} from './components'; //NEW_ADDITION
 import reportWebVitals from './reportWebVitals';
 import './styles.css'
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+
 
 
 
@@ -17,7 +18,7 @@ ReactDOM.render(
         </Route>
 
         <Route path='/dashboard'>
-          <Dashboard></Dashboard>
+          <Dashboard></Dashboard >
         </Route>
 
         <Route path='/signin'>
